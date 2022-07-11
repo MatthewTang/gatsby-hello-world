@@ -8,7 +8,7 @@ export default function Home() {
 		<div style={{ color: "purple" }}>
 			<Link to="/about/">about</Link>
 			<h1>Hello Gatsby!</h1>
-			<p>what a world.</p>
+			<p>test build</p>
 			<Test />
 		</div>
 	)
