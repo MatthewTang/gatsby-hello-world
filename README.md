@@ -101,4 +101,26 @@ Looking for more guidance? Full documentation for Gatsby lives [on the website](
 
 Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
 
+## 🔧 Build Environment Consistency
+
+This project includes version pinning to ensure consistent builds across different environments, especially for Vercel deployments:
+
+- **Node.js Version**: Pinned to 18.x via `engines` field in `package.json` and `.nvmrc` file
+- **npm Version**: Pinned to 9.x via `engines` field and `packageManager` field in `package.json`
+- **Reproducible Builds**: Use `npm ci` for exact dependency installation from `package-lock.json`
+
+### For Local Development
+```bash
+# Use the pinned Node version (if using nvm)
+nvm use
+
+# Install dependencies exactly as specified in lock file
+npm ci
+
+# Build the project
+npm run build
+```
+
+This setup prevents build failures caused by lock file inconsistencies between local development and CI/CD environments.
+
 <!-- AUTO-GENERATED-CONTENT:END -->
