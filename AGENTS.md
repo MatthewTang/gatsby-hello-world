@@ -23,7 +23,7 @@
 - Imports: Use ES modules (`import`/`export`). Keep relative paths tidy; create index files for folders when useful.
 
 ## Testing Guidelines
-- Not configured yet. If adding tests, use Jest + React Testing Library.
+- Testing is already configured with Jest and React Testing Library (`jest.config.js`, `babel.config.js`, and existing test files). Add new tests using this setup.
 - File pattern: `**/*.test.js` or `src/__tests__/*`.
 - Scope: Smoke test top-level pages and any critical components.
 - Run: `npm test` to execute the test suite (Jest is preconfigured).
