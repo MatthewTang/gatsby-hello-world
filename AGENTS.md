@@ -4,7 +4,7 @@
 - `src/pages/`: Route-based pages (e.g., `index.js`, `about.js`).
 - `static/`: Public assets served at site root.
 - `gatsby-config.js`: Site/plugins config (includes `gatsby-plugin-gatsby-cloud` and example headers for `/about/`).
-- `package.json`: Scripts, dependencies, Node engine (>=22).
+- `package.json`: Scripts, dependencies, Node engine (20.19.4).
 - Recommended: add `src/components/` for reusable UI; keep files small and focused.
 
 ## Build, Test, and Development Commands
