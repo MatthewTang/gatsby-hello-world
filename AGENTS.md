@@ -14,7 +14,7 @@
 - `npm run serve`: Serve the production build locally.
 - `npm run clean`: Clear Gatsby caches.
 - `npm run format`: Format with Prettier.
-- `npm test`: Placeholder (configure tests first; see below).
+- `npm test`: Runs Jest test suite (React Testing Library configured; tests in `src/__tests__/`).
 
 ## Coding Style & Naming Conventions
 - Formatting: Prettier enforced; 2-space indent. Run `npm run format` before PRs.
