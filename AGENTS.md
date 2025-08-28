@@ -26,7 +26,7 @@
 - Not configured yet. If adding tests, use Jest + React Testing Library.
 - File pattern: `**/*.test.js` or `src/__tests__/*`.
 - Scope: Smoke test top-level pages and any critical components.
-- Run: add `jest` config and update `npm test` to execute the suite.
+- Run: `npm test` to execute the test suite (Jest is preconfigured).
 
 ## Commit & Pull Request Guidelines
 - Commits: Imperative mood, concise subject (e.g., `fix: correct build on Node 18`).
