@@ -24,7 +24,7 @@ This is a Gatsby.js React static site generator application with a minimal hello
   - Uses `NODE_OPTIONS=--openssl-legacy-provider` for Node.js compatibility
 - **Development server**: `npm run develop` -- takes 60 seconds to start. NEVER CANCEL. Set timeout to 3+ minutes.
   - Runs on http://localhost:8000/
-  - GraphiQL available at http://localhost:8000/\_\_\_graphql
+  - GraphiQL available at http://localhost:8000/___graphql
   - Hot reloading enabled for development
 - **Serve production build**: `npm run serve` -- takes 10 seconds to start
   - Runs on http://localhost:9000/
@@ -50,7 +50,7 @@ This is a Gatsby.js React static site generator application with a minimal hello
    - Click the "about" link and verify navigation to /about/ works
    - Verify "about" page shows "about" text and "home" link
    - Click the "home" link to return to index page
-   - Test GraphiQL interface at http://localhost:8000/\_\_\_graphql
+   - Test GraphiQL interface at http://localhost:8000/___graphql
 
 2. **Production build validation**:
 
